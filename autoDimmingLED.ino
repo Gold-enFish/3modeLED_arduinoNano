@@ -52,17 +52,17 @@ void loop() {
 
     // Jalankan indikator sesuai mode
     if (mode == 0) {
-      blinkMode(2);
+      blinkMode(2); //mode: on, blink twice 
       analogWrite(LED_PIN, 255);
     }
 
     else if (mode == 1) {
-      blinkMode(3);
+      blinkMode(3); //mode: off, blink three times
       analogWrite(LED_PIN, 0);
     }
 
     else if (mode == 2) {
-      blinkMode(4);
+      blinkMode(4); //mode: auto, blink four times...
     }
   }
 
